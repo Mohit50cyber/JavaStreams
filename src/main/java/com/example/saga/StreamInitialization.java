@@ -15,7 +15,7 @@ public class StreamInitialization
         List<Integer> list= Arrays.asList(5,10,23,35,20,16);
         List<Integer>list1=list.stream().filter(i->i%2==0).toList();
         System.out.println(list1);
-        List<Integer>list2=list.stream().map(i->i*2).toList();
-        System.out.println(list2);
+        List<Integer>list3=list.stream().map(i->i*2).toList();
+        System.out.println(list3);
     }
 }
