@@ -28,5 +28,8 @@ public class StreamInitialization
                 .map(j->j+5)
                 .toList();
         System.out.println(graceMarks);
+        List<Integer> j=list.stream()
+                .filter(i->i<10).toList();
+        System.out.println(j);
     }
 }
