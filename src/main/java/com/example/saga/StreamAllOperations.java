@@ -135,6 +135,7 @@ public class StreamAllOperations {
 
         //collect emp name and emp salary
 
+
         Map<String, Double> collectnameandsalary = employees.stream().collect(Collectors.toMap(Employee::getName, Employee::getSalary));
         System.out.println(collectnameandsalary);
 

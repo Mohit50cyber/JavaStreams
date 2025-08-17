@@ -12,6 +12,7 @@ public class StreamReactiveAllOperations {
 
         List<Employee> employeeList = new ArrayList<>();
 
+
         employeeList.add(new Employee(246, "KunwarSingh", "Bathindaa", 30, "Male", "Tech Lead", 2019, 20000000.00));
         employeeList.add(new Employee(6, "Vishal", "Bathinda", 43, "Male", "Security", 2016, 20000.00));
         employeeList.add(new Employee(64, "qwerty", "ssvsv", 433, "Female", "Fire", 2019, 20080.00));
