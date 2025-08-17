@@ -7,6 +7,14 @@
     <groupId>com.example.saga</groupId>
     <artifactId>JavaStreams</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.projectreactor/reactor-core -->
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>3.8.0-M6</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
